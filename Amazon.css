@@ -1,0 +1,1435 @@
+*{
+    margin: 0px;
+    font-family: arial,sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-logo{
+    height: 40px;
+    width: 80px;
+}
+
+.logo{
+    background-image: url("logo.webp");
+    background-size: cover;
+    height: 40px;
+    width: 80px;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.nav-add{
+    margin-left: 15px;
+    height: 40px;
+    width: 80px;
+}
+.add-first{
+    font-size: 0.85rem;
+    margin-left: 12px;
+}
+.add-icon{
+    display: flex;
+}
+.add-sec{
+    font-size: 1rem;
+}
+
+            /* SEARCH BAR---> */
+
+.nav-search{
+    margin-left: 15px;
+    display: flex;
+    width: 530px;
+    height: 40px;
+    /* background-color: palevioletred;    */
+}
+
+.search-option{
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+input{
+    /* margin-left: 2px; */
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    /* height: 35px; */
+}
+.search-icon{
+    /* margin-left: 0px; */
+    color: black;
+    font-size:1.5rem;
+    background-color: orange;
+    width: 45px;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-search:hover{
+    border: 1.5px solid orange;
+}
+
+span{
+    font-size: 0.8rem;
+}
+.nav-sec{
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+.panel{
+    font-size: 0.85rem;
+    height: 40px;
+    width: 100vw;
+    background-color:rgb(18, 44, 63);
+    display: flex;
+}
+.half-icon{
+    height: 35px;
+    width: 50vw;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+.bar-all{
+    display: flex;
+    color: white;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.elect{
+    font-size: 0.9rem;
+    font-weight: 800;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 370px;
+}
+
+/* imaze section ---> */
+.main-page{
+    background-color: #c3cbcb;
+    height: 3670px;
+}
+.big-image{
+    height: 80vh;
+    width: 100vw;
+    background-image: url("amazon-food.png");
+    background-size: contain;
+    
+}
+
+            /* BADE IMAGES START */
+.boxs3{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: -150px;
+}
+.pA{
+    padding: 10px 0px 0px 16px;
+    font-size: 21px;
+    font-weight: 700;
+} 
+.img-box1{
+    height: 420px;
+    width: 370px;
+    background-color: #ffffff;
+}
+.upper-images{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.upper-image1{
+    height: 115px;
+    width: 160px;
+    background-image: url("bedsheet.jpg");
+    background-size: cover;
+}
+.p1{
+    height: 18px;
+    width: 150px;
+    text-align: left;
+    margin-top: 117px;
+    font-size: 12px;
+}
+.upper-image2{
+    height: 115px;
+    width: 160px;
+    background-image: url("aestro-dress.jpg");
+    background-size: cover;
+}
+.p2{
+    height: 18px;
+    width: 150px;
+    text-align: left;
+    margin-top: 117px;
+    font-size: 12px;
+}
+.down-imgs{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.down-img1{
+    height: 115px;
+    width: 160px;
+    background-image: url("cobard-box.jpg");
+    background-size: cover;
+}
+.p3{
+    height: 18px;
+    width: 150px;
+    text-align: left;
+    margin-top: 117px;
+    font-size: 12px;
+}
+.explore{
+    color: #007185;
+    margin-top: 30px;
+    font-size: 13px;
+}
+.down-img2{
+    height: 115px;
+    width: 160px;
+    background-image: url("wall light.jpg");
+    background-size: cover;
+}
+.p4{
+    height: 18px;
+    width: 150px;
+    text-align: left;
+    margin-top: 117px;
+    font-size: 12px;
+}
+.img-box2{
+    height: 420px;
+    width: 370px;
+    background-color: #ffffff;
+}
+.img-box3{
+    height: 420px;
+    width: 370px;
+    background-color: #ffffff;
+}
+
+            /* second box ---> */
+
+            .pB{
+                padding: 10px 0px 0px 16px;
+                font-size: 21px;
+                font-weight: 700;
+            } 
+            .sec-upper-images{
+                margin-top: 10px;
+                display: flex;
+                justify-content: space-evenly;
+            }
+            .sec-upper-image1{
+                height: 100px;
+                width: 160px;
+                background-image: url("earphone.jpg");
+                background-size: cover;
+            }
+            .sec-p1{
+                height: 18px;
+                width: 150px;
+                text-align: left;
+                margin-top: 105px;
+                font-size: 12px;
+            }
+            .sec-upper-image2{
+                height: 100px;
+                width: 160px;
+                background-image: url("datacable.jpg");
+                background-size: cover;
+            }
+            .sec-p2{
+                height: 18px;
+                width: 150px;
+                text-align: left;
+                margin-top: 105px;
+                font-size: 12px;
+            }
+            .sec-down-imgs{
+                margin-top: 45px;
+                display: flex;
+                justify-content: space-evenly;
+            }
+            .sec-down-img1{
+                height: 100px;
+                width: 160px;
+                background-image: url("nothingphone.jpg");
+                background-size: cover;
+            }
+            .sec-p3{
+                height: 18px;
+                width: 150px;
+                text-align: left;
+                margin-top: 105px;
+                font-size: 12px;
+            }
+            .sec-explore{
+                color: #007185;
+                margin-top: 30px;
+                font-size: 13px;
+                
+            }
+            .sec-down-img2{
+                height: 100px;
+                width: 160px;
+                background-image: url("powerbank.jpg");
+                background-size: cover;
+            }
+            .sec-p4{
+                height: 18px;
+                width: 150px;
+                text-align: left;
+                margin-top: 105px;
+                font-size: 12px;
+            }
+            .sec-img-box2{
+                height: 420px;
+                width: 370px;
+                background-color: #ffffff;
+            }
+            .sec-img-box3{
+                height: 420px;
+                width: 370px;
+                background-color: #ffffff;
+            }
+
+
+        
+        /* Third box---> */
+
+
+
+        .pC{
+            padding: 10px 0px 0px 16px;
+            font-size: 21px;
+            font-weight: 700;
+        } 
+        .third-img-box1{
+            height: 420px;
+            width: 370px;
+            background-color: #ffffff;
+        }
+        .third-upper-images{
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .third-upper-image1{
+            height: 100px;
+            width: 160px;
+            background-image: url("fridge.jpg");
+            background-size: cover;
+        }
+        .third-p1{
+            height: 18px;
+            width: 150px;
+            text-align: left;
+            margin-top: 105px;
+            font-size: 12px;
+        }
+        .third-upper-image2{
+            height: 100px;
+            width: 160px;
+            background-image: url("AC.jpg");
+            background-size: cover;
+        }
+        .third-p2{
+            height: 18px;
+            width: 150px;
+            text-align: left;
+            margin-top: 105px;
+            font-size: 12px;
+        }
+        .third-down-imgs{
+            margin-top: 45px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .third-down-img1{
+            height: 100px;
+            width: 160px;
+            background-image: url("oven.jpg");
+            background-size: cover;
+        }
+        .third-p3{
+            height: 18px;
+            width: 150px;
+            text-align: left;
+            margin-top: 105px;
+            font-size: 12px;
+        }
+        .third-explore{
+            color: #007185;
+            margin-top: 30px;
+            font-size: 13px;
+        }
+        .third-down-img2{
+            height: 100px;
+            width: 160px;
+            background-image: url("washing-machine.jpg");
+            background-size: cover;
+        }
+        .third-p4{
+            height: 18px;
+            width: 150px;
+            text-align: left;
+            margin-top: 105px;
+            font-size: 12px;
+        }
+        .third-img-box2{
+            height: 420px;
+            width: 370px;
+            background-color: #ffffff;
+        }
+        .third-img-box3{
+            height: 420px;
+            width: 370px;
+            background-color: #ffffff;
+        }
+
+        /* BADE IMAGES END  */
+
+
+
+    /* HORIZONTAL SOFA SET */
+
+
+    .all-sofa{
+        margin: 10px 0px 0px 22px;
+        width: 1170px;
+        height: 300px;
+        background-color: white;
+    }   
+    .upto{
+        display: flex;
+    }
+    .first-upto{
+        margin: 20px 0px 0px 20px;
+        font-weight: 700;
+        height: 26px;
+        width: 485px;
+        font-size: 21px;
+    }
+    .offers{
+        margin: 25px 0px 0px 15px ;
+        font-size: 14px;
+        color: #007185;
+        text-decoration: none;
+    }
+    .photo{
+        margin: 10px 0px 0px 20px;
+        height: 230px;
+        width: 1130px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .phot1{
+        
+        height: 200px;
+        width: 200px;
+        background-image: url("roundtable.jpg");
+        background-size: cover;
+    }
+    .phot2{
+        
+        height: 200px;
+        width: 200px;
+        background-image: url("greensofa.jpg");
+        background-size: cover;
+    }
+    .phot3{
+        
+        height: 170px;
+        width: 240px;
+        background-image: url("grey-doublesofa.jpg");
+        background-size: cover;
+    }
+    .phot4{
+        
+        height: 200px;
+        width: 200px;
+        background-image: url("brown-onehalfsofa.jpg");
+        background-size: cover;
+    }
+    .phot5{
+        
+        height: 200px;
+        width: 220px;
+        background-image: url("bookstand.jpg");
+        background-size: cover;
+    }
+
+
+
+    /* WASH BASINS.... */
+
+
+    .washbasins{
+        margin: 20px 0px 0px 22px;
+        width: 1170px;
+        height: 300px;
+        background-color: white;
+    }   
+    .top-deals{
+        display: flex;
+    }
+    .black-top-deals{
+        margin: 20px 0px 0px 20px;
+        font-weight: 700;
+        height: 26px;
+        width: 485px;
+        font-size: 21px;
+    }
+    .top-deals-offers{
+        margin: 25px 0px 0px -15px ;
+        font-size: 14px;
+        color: #007185;
+        text-decoration: none;
+    }
+    .washbasin-photo{
+        margin: 10px 0px 0px 20px;
+        height: 230px;
+        width: 1130px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .washbasin-phot1{
+        
+        height: 200px;
+        width: 100px;
+        background-image: url("tallgirl.jpg");
+        background-size: cover;
+    }
+    .washbasin-phot2{
+        
+        height: 200px;
+        width: 200px;
+        background-image: url("gymmachine.jpg");
+        background-size: cover;
+    }
+    .washbasin-phot3{
+        
+        height: 170px;
+        width: 240px;
+        background-image: url("washbasin.jpg");
+        background-size: cover;
+    }
+    .washbasin-phot4{
+        
+        height: 200px;
+        width: 200px;
+        background-image: url("blacktap.jpg");
+        background-size: cover;
+    }
+    .washbasin-phot5{
+        
+        height: 200px;
+        width: 220px;
+        background-image: url("goldenwashbasin.jpg");
+        background-size: cover;
+    }
+
+
+    /* NEECHE KE TEEN BADE BOX... */
+
+
+    .neeche-boxs3{
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .neeche-img-box1{
+        height: 420px;
+        width: 370px;
+        background-color: #ffffff;
+    }
+    .neeche-pA{
+        margin: 25px 0px 0px 15px ;
+        font-size: 21px;
+        font-weight: 700;
+    } 
+
+    .gymwall{
+        height: 280px;
+        width: 330px;
+        background-image: url("gymwall.jpg");
+        background-size: cover;
+        margin: 15px 0px 0px 20px ;
+    }
+
+    .see{
+        margin: 15px 0px 0px 20px;
+        font-size: 13px;
+        color: #007185;
+    }
+
+    /* second box ---> */
+
+    .neeche-img-box2{
+        height: 420px;
+        width: 370px;
+        background-color: #ffffff;
+    }
+
+    .neeche-img-box3{
+        height: 420px;
+        width: 370px;
+        background-color: #ffffff;
+    }
+                .neeche-pB{
+                    margin: 25px 0px 0px 15px ;
+                    font-size: 21px;
+                    font-weight: 700;
+                } 
+                
+                .supersnelly{
+                    height: 240px;
+                    width: 330px;
+                    background-image: url("supersnelly.jpg");
+                    background-size: contain;
+                    margin: 15px 0px 0px 20px ;
+                }
+                .hurricane{
+                    font-size: 15px;
+                    margin: 10px 0px 0px 20px;
+                }
+
+                .mrp{
+                    display: flex;
+                    margin: 10px 0px 0px 20px;
+                }
+                .rupya{
+                    font-size: 12px;
+                }
+                .fourninenine{
+                    font-size: 21px;
+                    margin-top: -3px;
+                }
+                .doublezero{
+                    font-size: 12px;
+                }
+                .sevenhundred{
+                    font-size: 13px;
+                    margin: 3px 0px 0px 10px;
+                }
+                .beechcut{
+                    font-size: 13px;
+                    margin: 3px 0px 0px 5px;
+                    text-decoration: line-through;
+                }
+
+            
+            /* Third box---> */
+    
+            .neeche-pC{
+                margin: 25px 0px 0px 15px;
+                font-size: 21px;
+                font-weight: 700;
+            } 
+
+            .olivegreenpot{
+                height: 240px;
+                    width: 180px;
+                    background-image: url("olivegreenpot.jpg");
+                    background-size: contain;
+                    margin: 15px 0px 0px 90px ;
+            }
+            .flowervase{
+                font-size: 15px;
+                    margin: 10px 0px 0px 20px;
+            }
+                .flowervase-mrp{
+                    display: flex;
+                    margin: 10px 0px 0px 20px;
+                }
+                .flowervase-rupya{
+                    font-size: 12px;
+                }
+                .flowervase-fourninenine{
+                    font-size: 21px;
+                    margin-top: -3px;
+                }
+                .flowervase-doublezero{
+                    font-size: 12px;
+                }
+                .flowervase-sevenhundred{
+                    font-size: 13px;
+                    margin: 3px 0px 0px 10px;
+                }
+                .flowervase-beechcut{
+                    font-size: 13px;
+                    margin: 3px 0px 0px 5px;
+                    text-decoration: line-through;
+                }
+            
+   /* HAPPY PLACE           */
+
+   .happy-place{
+    margin: 10px 0px 0px 22px;
+    width: 1170px;
+    height: 300px;
+    background-color: white;
+}   
+.happy-place-upto{
+    display: flex;
+}
+.happy-place-first-upto{
+    margin: 20px 0px 0px 20px;
+    font-weight: 700;
+    height: 26px;
+    width: 485px;
+    font-size: 21px;
+}
+.happy-place-offers{
+    margin: 25px 0px 0px 15px ;
+    font-size: 14px;
+    color: #007185;
+    text-decoration: none;
+}
+.happy-place-photo{
+    margin: 10px 0px 0px 20px;
+    height: 230px;
+    width: 1130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.happy-place-phot1{
+    
+    height: 200px;
+    width: 200px;
+    background-image: url("browncobard.jpg");
+    background-size: cover;
+}
+.happy-place-phot2{
+    
+    height: 200px;
+    width: 200px;
+    background-image: url("pinkpillow.jpg");
+    background-size: contain;
+}
+.happy-place-phot3{
+    
+    height: 170px;
+    width: 240px;
+    background-image: url("walltv.jpg");
+    background-size: cover;
+}
+.happy-place-phot4{
+    
+    height: 200px;
+    width: 200px;
+    background-image: url("goodvibesonly.jpg");
+    background-size: cover;
+}
+.happy-place-phot5{
+    
+    height: 200px;
+    width: 220px;
+    background-image: url("standinglamp.jpg");
+    background-size: cover;
+}
+
+/* HAPPY PLACE END  */
+
+
+/* FASHION IMAGES START  */
+
+
+.fashion-boxs3{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 20px;
+}
+.fashion-pA{
+    padding: 10px 0px 0px 16px;
+    font-size: 21px;
+    font-weight: 700;
+} 
+.fashion-img-box1{
+    height: 420px;
+    width: 370px;
+    background-color: #ffffff;
+}
+.fashion-upper-images{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fashion-upper-image1{
+    height: 165px;
+    width: 60px;
+    background-image: url("girl1.jpg");
+    background-size: contain;
+}
+
+.fashion-upper-image2{
+    height: 165px;
+    width: 60px;
+    background-image: url("girl2.jpg");
+    background-size: contain;
+}
+
+.fashion-down-imgs{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fashion-down-img1{
+    height: 145px;
+    width: 60px;
+    background-image: url("girl3.jpg");
+    background-size: contain;
+}
+
+.fashion-down-img2{
+    height: 165px;
+    width: 100px;
+    background-image: url("girl4.jpg");
+    background-size: contain;
+}
+
+
+.fashion-img-box2{
+    height: 420px;
+    width: 370px;
+    background-color: #ffffff;
+}
+
+
+            /* second box ---> */
+
+            .fashion-pB{
+                padding: 10px 0px 0px 16px;
+                font-size: 21px;
+                font-weight: 700;
+            } 
+            .fashion-sec-upper-images{
+                margin-top: 10px;
+                display: flex;
+                justify-content: space-evenly;
+            }
+            .fashion-sec-upper-image1{
+                height: 165px;
+                width: 160px;
+                background-image: url("twogirls.jpg");
+                background-size: cover;
+            }
+            
+            .fashion-sec-upper-image2{
+                height: 165px;
+                width: 160px;
+                background-image: url("blackshirtboy.jpg");
+                background-size: cover;
+            }
+            
+            .fashion-sec-down-imgs{
+                margin-top: 0px;
+                display: flex;
+                justify-content: space-evenly;
+            }
+            .fashion-sec-down-img1{
+                height: 175px;
+                width: 160px;
+                background-image: url("sneeker.jpg");
+                background-size: contain;
+            }
+            
+            .fashion-sec-down-img2{
+                height: 165px;
+                width: 200px;
+                background-image: url("threetshirts.jpg");
+                background-size: cover;
+            }
+            
+            .fashion-sec-img-box2{
+                height: 420px;
+                width: 370px;
+                background-color: #ffffff;
+            }
+            .fashion-sec-img-box3{
+                height: 420px;
+                width: 370px;
+                background-color: #ffffff;
+            }
+
+
+        
+        /* Third box---> */
+
+        .fashion-img-box3{
+            height: 420px;
+            width: 370px;
+            background-color: #ffffff;
+        }
+
+        .fashion-pC{
+            padding: 10px 0px 0px 16px;
+            font-size: 21px;
+            font-weight: 700;
+        } 
+        
+        .fashion-chargingOLA{
+            height: 280px;
+            width: 330px;
+            background-image: url("chargingOLA.jpg");
+            background-size: cover;
+            margin: 15px 0px 0px 20px ;
+        }
+        .fashion-see{
+            margin: 15px 0px 0px 20px;
+            font-size: 13px;
+            color: #007185;
+        }
+/* FASHION IMAGES END  */
+
+
+
+/* SPORTS BAR START  */
+
+.sport-place{
+    margin: 10px 0px 0px 22px;
+    width: 1170px;
+    height: 300px;
+    background-color: white;
+}   
+.sport-upto{
+    display: flex;
+}
+.sport-first-upto{
+    margin: 20px 0px 0px 20px;
+    font-weight: 700;
+    height: 26px;
+    width: 485px;
+    font-size: 21px;
+}
+.sport-offers{
+    margin: 25px 0px 0px 15px ;
+    font-size: 14px;
+    color: #007185;
+    text-decoration: none;
+}
+.sport-photo{
+    margin: 10px 0px 0px 20px;
+    height: 230px;
+    width: 1130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sport-phot1{
+    
+    height: 160px;
+    width: 150px;
+    background-image: url("greendoumble.jpg");
+    background-size: contain;
+}
+.sport-phot2{
+    
+    height: 193px;
+    width: 180px;
+    background-image: url("colorstrips.jpg");
+    background-size: contain;
+}
+.sport-phot3{
+    
+    height: 200px;
+    width: 135px;
+    background-image: url("pinkbottle.jpg");
+    background-size: contain;
+}
+.sport-phot4{
+    
+    height: 50px;
+    width: 130px;
+    background-image: url("blackcylinder.jpg");
+    background-size: contain;
+}
+.sport-phot5{
+    
+    height: 200px;
+    width: 220px;
+    background-image: url("fireblanket.jpg");
+    background-size: cover;
+}
+/* SPORTS BAR END  */
+
+
+/* SECOND LAST TEEN BOXES START  */
+
+.slast-boxs3{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 20px;
+}
+.slast-pA{
+    padding: 10px 0px 0px 16px;
+    font-size: 21px;
+    font-weight: 700;
+} 
+.slast-img-box1{
+    height: 420px;
+    width: 370px;
+    background-color: #ffffff;
+}
+.slast-upper-images{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.slast-upper-image1{
+    height: 125px;
+    width: 160px;
+    background-image: url("smilinglady.jpg");
+    background-size: cover;
+}
+.slast-p1{
+    height: 18px;
+    width: 150px;
+    text-align: left;
+    margin-top: 135px;
+    font-size: 12px;
+}
+.slast-upper-image2{
+    height: 125px;
+    width: 160px;
+    background-image: url("photoframe.jpg");
+    background-size: cover;
+}
+.slast-p2{
+    height: 18px;
+    width: 150px;
+    text-align: left;
+    margin-top: 135px;
+    font-size: 12px;
+}
+.slast-down-imgs{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.slast-down-img1{
+    height: 125px;
+    width: 160px;
+    background-image: url("twoplaes.jpg");
+    background-size: cover;
+}
+.slast-p3{
+    height: 18px;
+    width: 150px;
+    text-align: left;
+    margin-top: 135px;
+    font-size: 12px;
+}
+.slast-explore{
+    color: #007185;
+    margin-top: 20px;
+    font-size: 13px;
+}
+.slast-down-img2{
+    height: 125px;
+    width: 160px;
+    background-image: url("circularspeaker.jpg");
+    background-size: cover;
+}
+.slast-p4{
+    height: 18px;
+    width: 150px;
+    text-align: left;
+    margin-top: 135px;
+    font-size: 12px;
+}
+.slast-img-box2{
+    height: 420px;
+    width: 370px;
+    background-color: #ffffff;
+}
+.slast-img-box3{
+    height: 420px;
+    width: 370px;
+    background-color: #ffffff;
+}
+
+            /* second box ---> */
+
+            .slast-pB{
+                padding: 10px 0px 0px 16px;
+                font-size: 21px;
+                font-weight: 700;
+            } 
+            .slast-sec-upper-images{
+                margin-top: 10px;
+                display: flex;
+                justify-content: space-evenly;
+            }
+            .slast-sec-upper-image1{
+                height: 125px;
+                width: 160px;
+                background-image: url("redbluerapta.jpg");
+                background-size: cover;
+            }
+            .slast-sec-p1{
+                height: 18px;
+                width: 150px;
+                text-align: left;
+                margin-top: 135px;
+                font-size: 12px;
+            }
+            .slast-sec-upper-image2{
+                height: 125px;
+                width: 160px;
+                background-image: url("colorfulgitti.jpg");
+                background-size: cover;
+            }
+            .slast-sec-p2{
+                height: 18px;
+                width: 150px;
+                text-align: left;
+                margin-top: 135px;
+                font-size: 12px;
+            }
+            .slast-sec-down-imgs{
+                margin-top: 45px;
+                display: flex;
+                justify-content: space-evenly;
+            }
+            .slast-sec-down-img1{
+                height: 125px;
+                width: 160px;
+                background-image: url("blachwhitebatman.jpg");
+                background-size: cover;
+            }
+            .slast-sec-p3{
+                height: 18px;
+                width: 150px;
+                text-align: left;
+                margin-top: 135px;
+                font-size: 12px;
+            }
+            .slast-sec-explore{
+                color: #007185;
+                margin-top: 20px;
+                font-size: 13px;
+                
+            }
+            .slast-sec-down-img2{
+                height: 125px;
+                width: 160px;
+                background-image: url("icecreambox.jpg");
+                background-size: cover;
+            }
+            .slast-sec-p4{
+                height: 18px;
+                width: 150px;
+                text-align: left;
+                margin-top: 135px;
+                font-size: 12px;
+            }
+            .slast-sec-img-box2{
+                height: 420px;
+                width: 370px;
+                background-color: #ffffff;
+            }
+            .slast-sec-img-box3{
+                height: 420px;
+                width: 370px;
+                background-color: #ffffff;
+            }
+
+
+        
+        /* Third box---> */
+
+
+
+        .slast-pC{
+            padding: 10px 0px 0px 16px;
+            font-size: 21px;
+            font-weight: 700;
+        } 
+        .slast-third-img-box1{
+            height: 420px;
+            width: 370px;
+            background-color: #ffffff;
+        }
+        .smilinggirllaptop{
+            height: 320px;
+            width: 330px;
+            background-image: url("smilinggirllaptop.jpg");
+            background-size: cover;
+            margin: 15px 0px 0px 20px ;
+        }
+        .smilinggirllaptop-see{
+            margin: 15px 0px 0px 20px;
+            font-size: 13px;
+            color: #007185;
+        }
+
+/* SECOND LAST TEEN BOXES END  */
+
+
+/* LAST BOX START  */
+
+.last-all-sofa{
+    margin: 10px 0px 0px 22px;
+    width: 1170px;
+    height: 300px;
+    background-color: white;
+}   
+.last-upto{
+    display: flex;
+}
+.last-first-upto{
+    margin: 20px 0px 0px 20px;
+    font-weight: 700;
+    height: 26px;
+    width: 285px;
+    font-size: 21px;
+}
+.last-offers{
+    margin: 25px 0px 0px 0px ;
+    font-size: 14px;
+    color: #007185;
+    text-decoration: none;
+}
+.last-photo{
+    margin: 10px 0px 0px 20px;
+    height: 230px;
+    width: 1130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.last-phot1{
+    
+    height: 200px;
+    width: 200px;
+    background-image: url("pinkhaathi.jpg");
+    background-size: cover;
+}
+.last-phot2{
+    
+    height: 200px;
+    width: 200px;
+    background-image: url("footprint.jpg");
+    background-size: cover;
+}
+.last-phot3{
+    
+    height: 200px;
+    width: 210px;
+    background-image: url("safetyRO.jpg");
+    background-size: contain;
+}
+.last-phot4{
+    
+    height: 200px;
+    width: 200px;
+    background-image: url("aveenopackage.jpg");
+    background-size: cover;
+}
+.last-phot5{
+    
+    height: 200px;
+    width: 220px;
+    background-image: url("checkupkit.jpg");
+    background-size: cover;
+}
+
+/* LAST BOX END  */
+
+
+/* PRE FOOTER START  */
+
+    .outer-box{
+        height: 150px;
+        background-color: #ffffff;
+    }
+    .inner-box{
+        height: 120px;
+        border: 1px solid gray;
+        margin-top: 50px;
+        border-radius: 1%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .teen-inner-din{
+        
+    }
+    .personalized{
+        font-size: 13px;
+        margin-left: 0px;
+    }
+    .butten{
+        font-size: 12px;
+        font-weight: 700;
+        height: 25px;
+        width: 200px;
+        background-color: rgb(199, 151, 61);
+    }
+    .schn{
+        display: flex;
+        font-size: 11px;
+        margin-left: 50px;
+    }
+    .SH{
+        color: #007185;
+        margin-left: 2px;
+    }
+/* PRE FOOTER END  */
+
+/* BACK TO TOP START  */
+.back-to-top{
+    height: 50px;
+    font-size: 13px;
+    background-color: rgb(47, 82, 108);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back-top{
+    
+}
+
+/* LIST BOX START  */
+
+.list-box{
+    height: 350px;
+    background-color: rgb(20, 41, 57);
+    display: flex;
+    justify-content:space-around;
+}
+.get-to-know-us{
+    margin-top: 50px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 25px;
+    
+}
+.make-money-with-us{
+    margin-top: 50px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 25px;   
+}
+.amazon-payment-prod{
+    margin-top: 50px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 25px;
+}
+.let-us-help{
+    margin-top: 50px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.line{
+    background-color: white;
+    height: 0.4px;
+}
+
+/* SECOND LAST BOX START  */
+
+.second-last{
+    height: 100px;
+    background-color: rgb(20, 41, 57);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.last-amazon{
+    height: 50px;
+    width: 100px;
+    background-image: url("amz.png");
+    color: white;
+    background-size: cover;
+}
+.english{
+    height: 35px;
+    width: 115px;
+    border: 1px solid white;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.globe{
+    margin-left: 15px;
+}
+.sec-english{
+    margin-left: 10px;
+}
+.doller-US{
+    height: 35px;
+    width: 150px;
+    border: 1px solid white;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.dollar{
+    margin-left: 15px;
+}
+.US-dollar{
+    margin-left: 10px;
+}
+.flag-US{
+    height: 35px;
+    width: 150px;
+    border: 1px solid white;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.flag{
+    margin-left: 15px;
+}
+.united{
+    margin-left: 10px
+}
+/* SECOND LAST BOX END  */
+
+
+/* FOOTER  */
+footer{
+    height: 70px;
+    background-color: #131a22;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
